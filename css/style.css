@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    background-color: rgba(7, 7, 7, 0.904);
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    margin: 65px auto;
+}
+
+.box:hover {
+    box-shadow: 6px 7px 9px 0px grey;
+}
+
+.box .box-img {
+    width: 100%;
+}
+
+.box .box-img img {
+    max-width: 100%;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.box .title {
+    padding: 20px;
+}
+
+.box .title h3 {
+    color: white;
+    font-size: 27px;
+}
+
+.box .box-img .date-time {
+    position: absolute;
+    width: 200px;
+}
+
+.box .box-img .date-time .date {
+    text-align: center;
+    color: white;
+    padding: 10px 15px;
+    background-color: rgba(6, 161, 135, 0.774);
+
+}
+
+.box .box-img .date-time .time {
+    text-align: center;
+    background-color: rgba(73, 73, 148, 0.842);
+    color: white;
+}
